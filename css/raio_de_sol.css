@@ -5,12 +5,13 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                #247cff;
-  --section-bg-color:             #F9F9F9;
-  --dark-color:                   #000000;
-  --title-color:                  #565758;
-  --p-color:                      #717275;
-  --border-color:                 #eaeaea;
+  --white-color:                  #FFFFFF;
+  --primary-color:                #FFE7A4;
+  --secondary-color:              #7C9580;
+  --brown-color-1:                #8B5D20;
+  --brown-color-2:                #CB8D3D;
+  --brown-color-3:                #E4A34E;
+  --terciary-color:               #E5E2BF;
 
   --body-font-family:             'Open Sans', sans-serif;
 
@@ -266,6 +267,14 @@ strong {
   right: 0;
   padding: 1.5rem 2.5rem;
   width: 50%;
+}
+
+.heroText h1 {
+  color: var(--secondary-color) !important;
+}
+
+.heroText p {
+  text-align: justify;
 }
 
 .contact-phone {
