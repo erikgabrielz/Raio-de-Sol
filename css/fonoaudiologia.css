@@ -1,0 +1,97 @@
+h1.title{
+    text-align: center;
+
+    font-family: "Datatype", monospace;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-transform: uppercase;
+
+    color: var(--secondary-color);
+}
+
+.exams{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+
+    .item{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+
+        .icon{
+            width: 200px;
+            height: 200px;
+        }
+
+        p{
+            font-family: "Datatype", monospace;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            text-transform: uppercase;
+            text-align: center;
+
+            color: #505050;
+        }
+    }
+}
+
+.therapies{
+    .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 5px solid var(--brown-color-1);
+        border-right: none;
+
+        p{
+            font-family: "Datatype", monospace;
+            font-optical-sizing: auto;
+            font-weight: 100;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+            font-size: 40px;
+            text-transform: uppercase;
+            text-align: center;
+
+            color: #505050;
+        }
+    }
+
+    .right{
+        border: 5px solid var(--brown-color-1);
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+
+        ul{
+            list-style-type: none;
+
+            li{
+                display: flex;
+                justify-content: flex-start;
+                gap: 50px;
+                align-items: center;
+                padding: 20px;
+                text-transform: uppercase;
+                color: #505050;
+                font-weight: bold;
+                
+
+                img{
+                    width: 50px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+}
